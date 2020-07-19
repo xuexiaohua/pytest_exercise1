@@ -3,11 +3,8 @@
 # 测试文件
 
 import sys
-import pytest
-
-
-
 sys.path.append('..')
+import pytest
 from pythoncode.calc import Calculator
 
 class TestCalc:

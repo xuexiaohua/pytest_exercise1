@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf2b69d-80fe-4762-b6f4-9aa139b9c382" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/testing/datas/steps.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/datas/testDatas.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/test_calc_yaml.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing/test_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test_calc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pytest_exercise1$pytest_for_test_calc_yaml_TestCal2_test_X.coverage" NAME="pytest for test_calc_yaml.TestCal2.test_X Coverage Results" MODIFIED="1595159393900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/pytest_exercise1$pytest_for_test_calc_yaml_TestCal_1.coverage" NAME="pytest for test_calc_yaml.TestCal_1 Coverage Results" MODIFIED="1595161916188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
     <SUITE FILE_PATH="coverage/pytest_exercise1$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1595144056192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/pytest_exercise1$pytest_for_test_calc_yaml_TestCal2.coverage" NAME="pytest for test_calc_yaml.TestCal2 Coverage Results" MODIFIED="1595159558982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/pytest_exercise1$pytest_for_test_calc_yaml_TestCal_1_test_calAndYaml.coverage" NAME="pytest for test_calc_yaml.TestCal_1.test_calAndYaml Coverage Results" MODIFIED="1595161113267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/pytest_exercise1$pytest_in_test_calc_yaml_py.coverage" NAME="pytest in test_calc_yaml.py Coverage Results" MODIFIED="1595161053198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="pytest_exercise1" />
@@ -24,20 +31,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythoncode/calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="305">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/test_calc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testing/test_calc.py">
+        <entry file="file://$PROJECT_DIR$/testing/test_calc_yaml.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="578">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
-                <element signature="e#53#63#0" expanded="true" />
+                <element signature="e#45#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/datas/steps.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/datas/testDatas.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -87,17 +121,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/pythoncode/calc.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/testing/conftest.py" />
         <option value="$PROJECT_DIR$/testing/test_calc.py" />
+        <option value="$PROJECT_DIR$/testing/datas/steps.yaml" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/testing/datas/testDatas.yaml" />
+        <option value="$PROJECT_DIR$/testing/test_calc_yaml.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="143" />
-    <option name="y" value="-1304" />
+    <option name="x" value="108" />
+    <option name="y" value="-1179" />
     <option name="width" value="1539" />
     <option name="height" value="1024" />
   </component>
@@ -117,7 +154,18 @@
             <path>
               <item name="pytest_exercise1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_exercise1" type="462c0819:PsiDirectoryNode" />
+              <item name="pythoncode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_exercise1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_exercise1" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_exercise1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_exercise1" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -130,7 +178,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,6 +191,80 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_calc_yaml.TestCal_1">
+    <configuration name="pytest for test_calc_yaml.TestCal2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc_yaml.TestCal2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_calc_yaml.TestCal_1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc_yaml.TestCal_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_calc_yaml.TestCal_1.test_calAndYaml" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_calc_yaml.TestCal_1.test_calAndYaml&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_calc_yaml.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pytest_exercise1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testing/test_calc_yaml.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_calc_yaml.TestCal_1" />
+        <item itemvalue="Python tests.pytest for test_calc_yaml.TestCal_1.test_calAndYaml" />
+        <item itemvalue="Python tests.pytest in test_calc_yaml.py" />
+        <item itemvalue="Python tests.pytest for test_calc_yaml.TestCal2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
@@ -158,12 +280,44 @@
       <option name="presentableId" value="Default" />
       <updated>1595122706298</updated>
       <workItem from="1595122718799" duration="10865000" />
-      <workItem from="1595144868697" duration="1342000" />
+      <workItem from="1595144868697" duration="7968000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_calc_yaml_py - 2020.07.19 at 20h 15m 22s.xml">
+      <configuration name="pytest in test_calc_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1_test_calAndYaml - 2020.07.19 at 20h 16m 05s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1.test_calAndYaml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1_test_calAndYaml - 2020.07.19 at 20h 16m 53s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1.test_calAndYaml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_calc_yaml_py - 2020.07.19 at 20h 17m 34s.xml">
+      <configuration name="pytest in test_calc_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1_test_calAndYaml - 2020.07.19 at 20h 18m 34s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1.test_calAndYaml" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1 - 2020.07.19 at 20h 27m 13s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1 - 2020.07.19 at 20h 28m 34s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1 - 2020.07.19 at 20h 30m 07s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1 - 2020.07.19 at 20h 30m 55s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_calc_yaml_TestCal_1 - 2020.07.19 at 20h 31m 57s.xml">
+      <configuration name="pytest for test_calc_yaml.TestCal_1" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12207000" />
+    <option name="totallyTimeSpent" value="18833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -178,12 +332,12 @@
     <frame x="-596" y="-1448" width="2514" height="1456" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.091279544" />
-      <window_info id="Structure" order="1" sideWeight="0.50167227" side_tool="true" visible="true" weight="0.091279544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49777284" visible="true" weight="0.22208638" />
+      <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" visible="true" weight="0.22208638" />
       <window_info id="Favorites" order="2" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3213483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.3207262" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,7 +346,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49924356" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3214826" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3214826" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49924356" weight="0.5229508" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -245,10 +399,17 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pythoncode/calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="305">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -269,19 +430,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+    <entry file="file://$PROJECT_DIR$/testing/datas/steps.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="27">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testing/test_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="270">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/datas/testDatas.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testing/test_calc_yaml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
-            <element signature="e#53#63#0" expanded="true" />
+            <element signature="e#45#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
