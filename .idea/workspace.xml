@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebf2b69d-80fe-4762-b6f4-9aa139b9c382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pythoncode/calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing/test_calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytest_exercise1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytest_exercise1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing/test_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/testing/test_calc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/pytest_exercise1$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1595139671265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
+    <SUITE FILE_PATH="coverage/pytest_exercise1$test_calc.coverage" NAME="test_calc Coverage Results" MODIFIED="1595141386342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testing" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="pytest_exercise1" />
@@ -33,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testing/test_calc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="30" column="33" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="33" />
+            <state relative-caret-position="324">
+              <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
               <folding>
                 <element signature="e#54#64#0" expanded="true" />
               </folding>
@@ -43,10 +43,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -68,15 +77,16 @@
       <list>
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/pythoncode/calc.py" />
+        <option value="$PROJECT_DIR$/testing/conftest.py" />
         <option value="$PROJECT_DIR$/testing/test_calc.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-19" />
-    <option name="width" value="1382" />
-    <option name="height" value="762" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="280" />
+    <option name="y" value="-1085" />
+    <option name="width" value="1539" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -95,11 +105,6 @@
             <path>
               <item name="pytest_exercise1" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_exercise1" type="462c0819:PsiDirectoryNode" />
-              <item name="pythoncode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pytest_exercise1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pytest_exercise1" type="462c0819:PsiDirectoryNode" />
               <item name="testing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -112,6 +117,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -167,12 +173,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595122706298</updated>
-      <workItem from="1595122718799" duration="5800000" />
+      <workItem from="1595122718799" duration="7619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5800000" />
+    <option name="totallyTimeSpent" value="7619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -184,21 +190,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="280" y="-1085" width="1539" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" sideWeight="0.5012225" side_tool="true" weight="0.24962178" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4987775" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" sideWeight="0.5012225" side_tool="true" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.34009466" />
+      <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" visible="true" weight="0.34009466" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3295082" />
-      <window_info anchor="bottom" id="Python Console" weight="0.13278688" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" sideWeight="0.49924356" weight="0.3295082" />
+      <window_info anchor="bottom" id="Python Console" sideWeight="0.49924356" weight="0.5229508" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.46179774" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.3213483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,7 +257,7 @@
     <entry file="file://$PROJECT_DIR$/pytest.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -262,10 +268,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testing/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/testing/test_calc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="33" />
+        <state relative-caret-position="324">
+          <caret line="32" column="62" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding>
             <element signature="e#54#64#0" expanded="true" />
           </folding>
